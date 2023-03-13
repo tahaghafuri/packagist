@@ -1,0 +1,173 @@
+menu:
+    about_packagist: درباره پکجیست
+    rss_feeds: فید
+    about_composer: درباره کامپوزر
+    home: صفحه اصلی
+    profile: پروفایل
+    logout: خروج
+    login: ورود
+    register: ثبت نام
+    browse_packages: مرور پکیج ها
+    twitter: "دنبال کردن @packagist"
+    github: گیت هاب
+    contact: تماس باما
+    stats: آمارها
+    api_doc: وب سرویس
+    mirrors: پشتیبان ها
+    browse: مرور
+    submit: ارسال
+    togglenav: تغییر جهت ناوبری
+    create_account: ایجاد حساب کاربری
+    sign_in: ورود
+    settings: تنظیمات
+    change_password: تغییر رمزعبور
+    configure_2fa: احراز دو مرحله ای
+    my_packages: پکیج های من
+    my_favorites: موارد مورد علاقه من
+
+signinbox:
+     register: حساب کاربری نداری؟ یه حساب بساز!!
+
+link_type:
+    require: نیاز
+    devRequire: نیاز ها ( برای توسعه دادن)
+    suggest: پیشنهادات
+    conflict: تعارضات
+    replace: جایگزین ها
+    provide: ارائه ها
+
+listing:
+    title: پکیج ها
+    nopackages: پکیجی یافت نشد.
+    viewall: مشاهده همه
+    no_security_advisories: هیچ توصیه امنیتی برای این بسته یافت نشد.
+
+explore:
+    title: پکیج ها
+    newreleases: نسخه های جدید
+    newpackages: پکیج های جدید
+    popularpackages: پکیج های محبوب
+    randompackages: پکیج های تصادفی
+
+search:
+    claim_html: |
+        پکجیست مخزن اصلی <a href="https://getcomposer.org/">کامپوزر</a> است. این پکیج های عمومی پی اچ پی قابل نصب کامپوزر را جمع آوری می کند.
+
+packages:
+    mine: پکیج های من
+    yours: پکیج های شما
+    maintained_by: "پکیج های نگهداری شده توسط %user%"
+    my_favorites: پکیج های مورد علاقه من
+    users_favorites: "پکیج های مورد علاقه %user%"
+    dependent_title: پکیج های وابسته
+    dependents: وابستگی ها
+    providers_title: "%name% پکیج های زیر ارائه می کنند"
+    suggesters: پیشنهاد دهندگان
+    suggesters_title: پکیج های پیشنهادی
+    from: "پکیج ها از %vendor%"
+    security_advisory_title: توصیه های امنیتی
+    security_advisories: توصیه های امنیتی
+
+browse:
+    packages: پکیج ها
+    of_type: "از نوع %type%"
+    with_tag: "برچسب زده شده با %tag%"
+    join_and: ' و '
+    join_or: ' یا '
+
+submit:
+    title: ارسال پکیج
+    submit: ارسال
+    guide: |
+        <p>لطفا قبل از ارسال پیکج روش های <a href="%path_about%#naming-your-package">نام گذاری</a> را بخوانید. نام معتبر پکیج شما از فایل composer.json در شاخه اصلی مخزن شما خوانده می شود و پس از آن نمی توان آن را تغییر داد..</p>
+        <p><strong>از ارسال انشعابات پکیج های موجود خودداری کنید.</strong> اگر تغییری در آن ایجاد کردید میتوانید آنرا ارسال کنید.</p>
+
+abandon:
+    submit: رهاکردن پکیج
+    warning: |
+        <p>شما در حال علامت گذاری این پکیج به عنوان رها شده هستید. این به کاربران هشدار می دهد که این پکیج دیگر نگهداری نخواهد شد.</p>
+        <p>اگر این پروژه را به نگهدارنده جدیدی واگذار می کنید یا پکیجی را می شناسید که جایگزین آن شده است، لطفاً از
+            فیلد زیر برای راهنمایی کاربران به استفاده از پکیج جدید کنید،در صورتی که نتوانید آنها را به یک پکیج جدید راهنمایی کنید، این یکی
+            به عنوان رها شده برچسب گذاری می شود و می توان بعداً جایگزینی اضافه کرد.</p>
+
+edit:
+    page_title: "ویرایش پکیج %name%"
+    title: "ویرایش %name%"
+    submit: بروزرسانی
+
+profile:
+    your_api_token: توکن وب سرویس شما
+    show_api_token: نمایش توکن وب سرویس
+    accounts_connected: حساب شما به %user% متصل شده است
+    connect_accounts: اتصال حساب
+    notify_on_failure: من را از خرابی بروزرسانی پکیج مطلع کن
+    api_token_explain: |
+        می‌توانید از توکن وب سرویس خود برای تعامل با وب سرویس پکجیست استفاده کنید، جزئیات را در <a href="%path_about%#how-to-update-packages">مستندات</a> مطالعه کنید.
+
+stats:
+    title: آمار نصب
+    subtitle: آمار نصب
+    installs: نصب
+    overall: به طور کلی
+    lastmonth: در یک ماه
+    today: در یک روز
+    rolling_avg: "میانگین چرخشی، تقریبا."
+    daily: نصب روزانه
+    daily_per_version: نصب روزانه در هر نسخه
+    averaged: "میانگین %avg%"
+
+statistics:
+    title: آمار
+    over_time: پکیج ها/نسخه ها در طول زمان
+    last_partial: آخرین نقطه داده مربوط به ماه جاری است و داده های جزئی را نشان می دهد.
+    last_partial_day: آخرین نقطه داده مربوط به روز جاری (UTC) است و داده های جزئی را نشان می دهد.
+    last_month: پکیج های نصب شده در یک ماه گذشته
+    monthly: پکیج های نصب شده در هر ماه
+    packages: پکیج ها
+    installs: نصب
+    registered: پکیج های ثبت شده
+    installed: پکیج های نصب شده
+    versions: نسخه های موجود
+    versions_avail: نسخه موجود
+    totals: حداقل
+    since: زمان
+
+api_doc:
+    title: مستندات وب سرویس
+    intro: 'پکجیست یک وب سرویس عمومی برای مصرف داده دارد. مهم ترین آدرس ها را مشاهده میکنید:'
+    listing_names: فهرست نام پکیج ها
+    all_packages: همه پکیج ها
+    by_organization: براساس سازمان
+    by_name: براساس نام
+    by_type: براساس نوع
+    by_tag: براساس برچسب
+    get_statistics: دریافت آمار
+    list_by_organization: لیست پکیج ها بر اساس سازمان
+    list_by_type: لیست پکیج ها بر اساس نوع
+    searching: جستجو برای پکیج ها
+    search_by_name: جستجو پکیج ها بر اساس نام
+    search_by_tag: جستجو پکیج ها بر اساس برچسب
+    search_by_type: جستجو پکیج ها بر اساس نوع
+    get_by_name: دریافت پکیج بر اساس نام
+    get_package_data: دریافت داده های پکیج
+    list_security_advisory: لیست توصیه امنیتی
+    api_create_package: ایجاد پکیج
+
+mirrors:
+    title: پشتیبان های متادیتا
+    caution: 'سلب مسئولیت: یک کلمه احتیاط کننده'
+    mirror_list: پشتیبان های موجود
+    running_your_own: ایجاد پشتیبان شما
+
+user:
+    member_since: عضو
+    packages: "پکیج های %username%"
+
+'جستجوی پکیج ها...': 'جستجوی پکیج ها...'
+brandname: پکجیست
+navclaim: مخزن پکیج پی اچ پی
+Sort: 'ترتیب'
+Order: 'ترتیب'
+Username: 'نام کاربری'
+asc: 'صعودی'
+desc: 'نزولی'
